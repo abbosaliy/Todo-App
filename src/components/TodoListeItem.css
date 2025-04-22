@@ -1,0 +1,39 @@
+.create-todo {
+	width: 100%;
+	background-color: aquamarine;
+	font-size: 1.3rem;
+	border-radius: 6px;
+	border: none;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.create-todo__left {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.create-todo__left-checkbox {
+	margin-left: 0.5rem;
+	width: 24px;
+	height: 24px;
+}
+
+.todo-remove__btn {
+	margin: 0.5rem;
+	border: none;
+	cursor: pointer;
+	background: none;
+}
+.todo-remove__btn:hover {
+	font-size: 2rem;
+}
+
+.todo-remove__btn-icon {
+	width: 35px;
+	height: 35px;
+	color: red;
+}
