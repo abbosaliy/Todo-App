@@ -13,14 +13,11 @@ function TodoApp() {
 	}
 
 	function removeTodo(todoIndex) {
-		console.log(todoIndex);
 		const updatedTodos = todos.filter((element, index) => index !== todoIndex);
 		setTodos(updatedTodos);
 	}
 
 	function handleChangeCheckBox(index) {
-		console.log(index);
-
 		const updatedTodos = [...todos];
 		updatedTodos[index].done = !updatedTodos[index].done;
 		setTodos(updatedTodos);
