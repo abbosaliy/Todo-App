@@ -1,6 +1,14 @@
 .todo-app {
-	background-color: blueviolet;
+	background-color: #e0f7fa;
 	display: flex;
 	justify-content: center;
 	height: auto;
+}
+
+@media (max-width: 600px) {
+	.todo-app {
+		flex-direction: column;
+		align-items: center;
+		padding: 1rem;
+	}
 }
