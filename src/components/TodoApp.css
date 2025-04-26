@@ -3,7 +3,7 @@
 	flex-direction: column;
 	height: 100vh;
 	gap: 1rem;
-	width: 50%;
+	width: 60%;
 }
 
 .todo-liste {
@@ -11,4 +11,17 @@
 	flex-direction: column-reverse;
 	align-items: flex-start;
 	gap: 1rem;
+}
+
+@media (max-width: 600px) {
+	.todo {
+		width: 100%;
+		padding: 1rem;
+		height: 100vh;
+		gap: 0.5rem;
+	}
+
+	.todo-liste {
+		gap: 0.5rem;
+	}
 }
