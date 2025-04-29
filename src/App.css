@@ -1,14 +1,14 @@
 .todo-app {
-	background-color: #e0f7fa;
-	display: flex;
-	justify-content: center;
-	height: auto;
+  background-color: #e0f7fa;
+  display: flex;
+  justify-content: center;
+  height: auto;
 }
 
 @media (max-width: 600px) {
-	.todo-app {
-		flex-direction: column;
-		align-items: center;
-		padding: 1rem;
-	}
+  .todo-app {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
 }
